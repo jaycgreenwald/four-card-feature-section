@@ -3,43 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Four card feature section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+    <main class="card">
+        
+        <div class="card__heading">
+            <h2 class="card__title-sub">Reliable, efficient delivery</h2>
+            <h1 class="card__title">Powered by Technology</h1>
+            <p class="card__title-desc">Our Artificial Intelligence powered tools use millions of project data points 
+            to ensure that your project is successful</p>
+        </div>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+        <div class="card__product-card">
+            <h3 class="card__product-title">Supervisor</h3>
+            <p class="card__product-desc">Monitors activity to identify project roadblocks</p>
+            <img src="images/icon-supervisor.svg" alt="" class="card__icon">
+          </div>
+          
+          <div class="card__product-card card__product-card--red">
+            <h3 class="card__product-title">Team Builder</h3>
+            <p class="card__product-desc">Scans our talent network to create the optimal team for your project</p>
+            <img src="images/icon-team-builder.svg" alt="" class="card__icon">
+          </div>
+          
+          <div class="card__product-card card__product-card--orange">
+            <h3 class="card__product-title">Karma</h3>
+            <p class="card__product-desc">Regularly evaluates our talent to ensure quality</p>
+            <img src="images/icon-karma.svg" alt="" class="card__icon">
+          </div>
+          
+          <div class="card__product-card card__product-card--blue">
+            <h3 class="card__product-title">Calculator</h3>
+            <p class="card__product-desc">Uses data from past projects to provide better delivery estimates</p>
+            <!-- <div class="card__icon-wrap"> -->
+                <img src="images/icon-calculator.svg" alt="" class="card__icon">
+            <!-- </div> -->
+          </div>
+          
+    </main>
+    <footer>
+        <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Jason Greenwald</a>.
+        </p>
   </footer>
 </body>
 </html>
