@@ -64,7 +64,6 @@ body {
 }
 
 .card__feature-card {
-    /* min-width: 312px; */
     background: linear-gradient(to bottom, var(--cyan) 0 2%, hsl(0, 0%, 100%) 2% 100%);
     border-radius: .4rem;
     padding: 1.5rem 1.8rem;
@@ -77,9 +76,9 @@ body {
     0px 72px 80px rgba(0, 0, 0, 0.07);
             }
             
-            .card__feature-title {
-                color: var(--very-dark-blue);
-                font-size: 1.3rem;
+.card__feature-title {
+    color: var(--very-dark-blue);
+    font-size: 1.3rem;
     font-weight: 600;
 }
 
